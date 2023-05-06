@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'android';
+    src: url("fontes/idroid.otf") format("opentype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
+header{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: large;
+    background-image: linear-gradient(to bottom, #23C2E2, #024177);
+    height: auto;
+    margin: 0px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
+}
+
+header > h1{
+    margin:0;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+}
+
+header > p{
+    padding-bottom: 30px;
+    margin: 0px;
+    font: normal 0.7em 'Fjalla One', sans-serif;
+}
+
+nav{
+    text-align: left;
+    padding-left: 10px;
+    font: bold 0.8em 'Fjalla One', sans-serif;
+    padding-bottom: 10px;
+    background-color: #024177;
+    margin-top: 0px;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.42);
+}
+
+body{
+    background: #0FC2C0;
+    margin:0px;
+}
+
+nav > a{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav > a:hover{
+    background-color: #0184CC;
+    color:#023535;  
+    font: bold 1.3em 'Fjalla One', sans-serif;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+  
+}
+
+.tituloAndroid{
+    font:normal 20pt 'android', Arial, Sans-serif;
+    margin: 0px;
+    text-align: left;
+    color: #008F8C;
+}
+
+.info{
+    padding: 10px;
+}
+
+.paragrafo{
+    text-align: justify;
+    text-indent: 30px;
+    font: normal 1em Verdana, Arial, sans-serif;
+    padding: 10px;
+    margin: 0px;
+}
+main{
+    margin: auto;
+    max-width: 800px;
+    min-width: 320px; /*Caso a tela fique muito pequena, ajusto ao usuário*/
+    background: white;
+    text-align: center;
+    border-radius: 0 0 7px 7px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.317);
+}
+
+.subtitulo{
+    background-image: linear-gradient(to right, #0FC2C0, white 60%);
+    text-align: left;
+    padding: 5px;
+    font: normal 1em 'android', Verdana, sans-serif;
+}
+img{
+    width: 100%;
+}
+footer{
+    color:white;
+    background:#023535;
+    text-align: center;
+}
+
+#rodape{
+    margin: 0px;
+}
+
+#logo_android{
+    max-width: 350px;
+}
+
+.video{
+    background-color: #023535;
+    padding: 10px;
+    margin: 0px -10px;
+}
+
+.video > iframe{
+    width: 72%;
+}
+
+
+
+#superior{
+    background: #024177;
+    color:white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    text-align: left;
+}
+#conteudo{
+    background: #40e2df92;
+    padding: 10px;
+    text-indent: 30px;
+    text-align: justify;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 20px;
+}
+
+#conteudo > .lista{
+    list-style-type: '\2713';
+    columns: 2;
+}
+
+#quadro{
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.402);
+    font: normal 1em 'Fjalla One', sans-serif;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+a{
+    color:#023535;
+    text-decoration: none;
+    font: bold 1em 'Fjalla one', Verdana, sans-serif;
+}
+
+a:hover{
+    background: #008F8C;
+    color: white
+}
